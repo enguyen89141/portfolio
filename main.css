@@ -1,9 +1,16 @@
+
+html {
+    height: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background: linear-gradient(0deg, rgba(18,20,69,1) 25%, rgba(243,85,255,1) 52%, rgba(76,209,255,1) 100%);
+}
 .sideNav a{
     position: absolute;
     left: -120px;
     transition: 0.4s;
     padding: 14px;
-    width: 120px;
+    width: 180px;
     font-size: 25px;
     color: white;
     border-radius: 0 5px 5px 0;
@@ -17,36 +24,49 @@
 
 #about {
     top: 345px;
-    background-color: green;
+    color: #f355ff;
+    background-color: #121445;
 }
 
 #projects{
     top: 435px;
-    background-color: skyblue;
+    color: #121445;
+    background-color: #4cd1ff;
 }
 
 #contact {
     top: 525px;
-    background-color: orange;
+    color: white;
+    background-color: #f355ff;
 }
 
 img {
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: right;
+    padding-left: 15px;
 }
+
 .headshot {
 position: absolute;
    top: 50%;
    left: 50%;
    margin-top: -250px; 
-   margin-left: -250px;
+   margin-left: -250px;    
+   height: 500px;
+   width: 500px;
+   border-radius: 50%;
+   display: inline-block;
 }
 .bottomNav{
     display: none;
 }
-
+.headline {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 45px;
+    margin-bottom: -40px;
+}
 @media screen and (max-width: 600px){
    .sideNav{
        display: none;
@@ -69,7 +89,5 @@ position: absolute;
     text-decoration: none;
     font-size: 17px;
   }
-  img{
-      height: auto;
-  }
+
 }
