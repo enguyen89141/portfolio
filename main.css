@@ -1,10 +1,5 @@
 
-html {
-    height: 100%;
-    background-size: cover;
-    background-repeat:no-repeat;
-    background: linear-gradient(0deg, rgba(18,20,69,1) 25%, rgba(243,85,255,1) 52%, rgba(76,209,255,1) 100%);
-}
+
 .sideNav a{
     position: absolute;
     left: -120px;
