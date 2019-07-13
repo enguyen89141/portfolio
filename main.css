@@ -17,17 +17,17 @@
 
 #about {
     top: 345px;
-    background-color: green;
+    background-color: black;
 }
 
 #projects{
     top: 435px;
-    background-color: skyblue;
+    background-color: black;
 }
 
 #contact {
     top: 525px;
-    background-color: orange;
+    background-color: black;
 }
 
 img {
@@ -47,7 +47,7 @@ position: absolute;
     display: none;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
    .sideNav{
        display: none;
    }
@@ -72,4 +72,26 @@ position: absolute;
   img{
       height: auto;
   }
+  .bio{
+      top: 70%;
+  }
+  .headline{
+      top: 20%;
+  }
+}
+.main{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.headline{
+    position: absolute;
+    left: 50%;
+}
+.bio{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }
