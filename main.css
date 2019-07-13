@@ -1,6 +1,7 @@
 
 
 .sideNav a{
+    background-color: black;
     position: absolute;
     left: -120px;
     transition: 0.4s;
